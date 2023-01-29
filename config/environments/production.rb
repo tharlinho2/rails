@@ -7,6 +7,8 @@ Rails.application.configure do
   config.cache_classes = true
   
   config.hosts << "reminde.up.railway.app"
+  
+  config.public_file_server.enabled = true
 
 
   # Eager load code on boot. This eager loads most of Rails and
