@@ -6,7 +6,7 @@ Rails.application.configure do
   # Code is not reloaded between requests.
   config.cache_classes = true
   
-  config.hosts << "reminde.up.railway.app"
+  config.hosts = nil
   
   config.public_file_server.enabled = true
 
